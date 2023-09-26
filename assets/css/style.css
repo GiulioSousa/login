@@ -1,11 +1,8 @@
-:root {
+* {
     --bg-color1: #021024;
     --bg-color2: #5483b3;
     --primary-color:#c1e8ff;
     --danger-color: #ff3333;
-}
-
-* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -106,7 +103,7 @@ body {
 }
 
 .error-message--active {
-    width: calc(100% - 5rem);
+    width: calc(100% - 3rem);
     height: 50px;
     text-align: center;
     padding: .5rem;
